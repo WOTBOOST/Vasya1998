@@ -1,0 +1,40 @@
+name: Update FunPay reviews
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-reviews:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install parser dependencies
+        run: pip install --disable-pip-version-check curl_cffi beautifulsoup4 lxml requests
+
+      - name: Fetch public FunPay reviews
+        run: python scripts/update_funpay_reviews.py
+
+      - name: Commit reviews if changed
+        run: |
+          if git diff --quiet -- reviews.json; then
+            echo "No review changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reviews.json
+          git commit -m "Update FunPay reviews [skip ci]"
+          git push
