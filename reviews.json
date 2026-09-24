@@ -1,0 +1,62 @@
+{
+  "source": "https://funpay.com/users/624432/",
+  "updated_at": "2026-09-24T00:00:00+00:00",
+  "rating": 5.0,
+  "total_reviews": 1472,
+  "reviews": [
+    {
+      "author": "Egohype",
+      "order_id": "T9J74JK6",
+      "date": "21 сентября в 19:50, 3 дня назад",
+      "game": "World of Tanks",
+      "price": "9 $",
+      "stars": 5,
+      "text": "+"
+    },
+    {
+      "author": "lovemega",
+      "order_id": "P4UKR2KD",
+      "date": "16 сентября в 21:12, неделю назад",
+      "game": "World of Tanks",
+      "price": "20 $",
+      "stars": 5,
+      "text": "Гуд"
+    },
+    {
+      "author": "lovemega",
+      "order_id": "U3UXQ38J",
+      "date": "13 сентября в 4:43, 2 недели назад",
+      "game": "World of Tanks",
+      "price": "40 $",
+      "stars": 5,
+      "text": "top"
+    },
+    {
+      "author": "lovemega",
+      "order_id": "W1V9TKBD",
+      "date": "12 сентября в 18:45, 2 недели назад",
+      "game": "World of Tanks",
+      "price": "10 $",
+      "stars": 5,
+      "text": "Топ"
+    },
+    {
+      "author": "lovemega",
+      "order_id": "VBCLF5YQ",
+      "date": "11 сентября в 18:31, 2 недели назад",
+      "game": "World of Tanks",
+      "price": "40 $",
+      "stars": 5,
+      "text": "top"
+    },
+    {
+      "author": "getmethis",
+      "order_id": "K1ZBMRS6",
+      "date": "7 сентября в 18:56, 2 недели назад",
+      "game": "World of Tanks",
+      "price": "30 $",
+      "stars": 5,
+      "text": "Блек Рок готов, спасибо!"
+    }
+  ]
+}
