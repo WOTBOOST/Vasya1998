@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+:root{--bg:#080d13;--panel:#101822;--panel2:#151f2b;--line:#293746;--text:#f4f7fb;--muted:#9aaabd;--orange:#ff5a16;--orange2:#ff8a43}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.5}a{text-decoration:none;color:inherit}button,input,select,textarea{font:inherit}.header{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 5%;background:rgba(8,13,19,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.logo{display:flex;align-items:center;gap:10px}.logo-mark{display:grid;place-items:center;width:40px;height:40px;border:2px solid #fff;font-size:25px}.logo b{display:block;font-size:20px;letter-spacing:-.8px}.logo em,h1 span,h2 span{color:var(--orange);font-style:normal}.logo small{display:block;color:var(--muted);font-size:9px;letter-spacing:1px}.nav{display:flex;gap:25px;font-size:13px;color:#c5cfdb}.nav a:hover,.header-actions a:hover{color:var(--orange)}.header-actions{display:flex;align-items:center;gap:16px;font-size:13px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;border-radius:9px;padding:13px 22px;font-weight:700;cursor:pointer;transition:.2s}.btn-primary{background:var(--orange);color:#fff}.btn-primary:hover{background:#ff773d;transform:translateY(-2px)}.btn-outline{border-color:var(--orange);color:#fff}.menu-toggle{display:none;background:none;border:0;color:#fff;font-size:25px}.hero{min-height:570px;position:relative;overflow:hidden;display:flex;align-items:center;padding:75px 5%;background:radial-gradient(circle at 75% 40%,#67351d 0,transparent 34%),linear-gradient(110deg,#0b1119 35%,#19232d 100%)}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#080d13 0%,transparent 75%);pointer-events:none}.hero-content{position:relative;z-index:2;max-width:620px}.eyebrow{color:#c2ccd8;font-size:12px;letter-spacing:1.5px;font-weight:600}.hero h1{font-size:clamp(55px,8vw,100px);line-height:.95;letter-spacing:-4px;margin:20px 0}.hero h2{font-size:20px;line-height:1.25}.hero-text{color:#b6c2d0;max-width:500px}.hero-buttons{display:flex;gap:12px;margin:28px 0}.trust-row{display:flex;gap:30px;margin-top:35px}.trust-row span{color:var(--orange);font-size:22px}.trust-row b{display:block;color:#fff;font-size:12px}.trust-row small{display:block;color:var(--muted);font-size:10px}.hero-art{position:absolute;right:-3%;width:58%;height:100%;background:radial-gradient(ellipse at center,#b74d1c55,transparent 60%);transform:skewX(-8deg)}.tank-silhouette{position:absolute;right:20%;top:42%;font-size:220px;color:#202b34;text-shadow:0 0 45px #ff6a1d55;transform:rotate(-8deg)}.section{padding:75px 5%;scroll-margin-top:75px}.section-dark{background:#0d141d;border-top:1px solid #162330;border-bottom:1px solid #162330}.section-heading{margin-bottom:30px}.section-heading h2,.order-box h2,.contact-strip h2{font-size:38px;letter-spacing:-1.5px;margin:8px 0}.section-heading p:not(.eyebrow),.order-box p,.contact-strip p{color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service-card,.price-card,.review{background:linear-gradient(145deg,#111b26,#0c131c);border:1px solid var(--line);border-radius:12px;padding:25px;transition:.2s}.service-card:hover,.price-card:hover{border-color:var(--orange);transform:translateY(-4px)}.service-icon{font-size:32px;color:var(--orange)}.service-card h3{margin:15px 0 8px}.service-card p,.price-card p,.review p{color:var(--muted);font-size:14px}.service-card button{margin-top:12px;background:#263443;border:0;color:#fff;border-radius:50%;width:35px;height:35px;cursor:pointer}.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.price-card h3{margin-top:0;color:#fff}.price-card ul{padding-left:18px;color:#c0cbd8;font-size:14px}.price-card li{margin:9px 0}.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.review-top{display:flex;justify-content:space-between}.review-top span{color:var(--orange);letter-spacing:2px}.review small{color:#7e8da0}.order-section{background:radial-gradient(circle at 80% 20%,#482313,transparent 30%),#0b1119}.order-box{max-width:780px;margin:auto;background:#111b26;border:1px solid var(--line);border-radius:15px;padding:35px}.order-box form{display:grid;gap:14px}.order-box label{display:grid;gap:6px;color:#cbd5e1;font-size:13px}.order-box input,.order-box select,.order-box textarea{width:100%;background:#0a1119;color:#fff;border:1px solid var(--line);border-radius:8px;padding:12px;outline:none}.order-box textarea{min-height:110px;resize:vertical}.order-box input:focus,.order-box select:focus,.order-box textarea:focus{border-color:var(--orange)}.form-status{white-space:pre-wrap}.contact-strip{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:45px 5%;background:linear-gradient(100deg,#151f2a,#0d141d)}.contact-buttons{display:flex;gap:12px}.contact-card{display:flex;flex-direction:column;gap:4px;padding:16px 22px;border:1px solid var(--line);border-radius:10px;background:#101a25;color:#fff;cursor:pointer}.contact-card b{color:var(--orange)}.contact-card span{font-size:13px;color:var(--muted)}.qr-placeholder{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:11px}.qr-placeholder div{display:grid;place-items:center;width:75px;height:75px;background:#fff;color:#111;font-size:22px;font-weight:900}.footer{display:flex;justify-content:space-between;padding:25px 5%;font-size:12px;color:#68788b;border-top:1px solid var(--line)}
+@media(max-width:900px){.nav,.header-actions>a:not(.btn){display:none}.menu-toggle{display:block;margin-left:auto}.header{flex-wrap:wrap}.nav.open{display:flex;order:5;width:100%;flex-direction:column;gap:12px}.hero{padding-top:50px;min-height:620px}.hero-art{opacity:.35;width:100%;right:-20%}.cards,.price-grid,.reviews{grid-template-columns:repeat(2,1fr)}.contact-strip{flex-wrap:wrap}.contact-buttons{flex-wrap:wrap}}
+@media(max-width:560px){.hero h1{font-size:55px;letter-spacing:-2px}.hero h2{font-size:16px}.trust-row{gap:12px;flex-wrap:wrap}.cards,.price-grid,.reviews{grid-template-columns:1fr}.section{padding:50px 5%}.section-heading h2,.order-box h2,.contact-strip h2{font-size:30px}.order-box{padding:22px}.footer{flex-direction:column;gap:8px}.contact-strip{padding:35px 5%}}
+.service-start-price{color:var(--orange)!important;font-weight:800;font-size:16px!important;margin:10px 0 0}
+.price-main{color:var(--orange)!important;font-size:22px!important;font-weight:800;margin:4px 0 10px}
+.price-details{margin:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0}
+.price-details summary{cursor:pointer;color:#fff;font-weight:700;user-select:none}
+.price-details summary:hover{color:var(--orange)}
+.price-table-wrap{overflow-x:auto;margin-top:12px}
+.price-table{width:100%;border-collapse:collapse;min-width:430px;font-size:12px}
+.price-table th,.price-table td{padding:8px 10px;border-bottom:1px solid #263442;text-align:center;white-space:nowrap}
+.price-table th{color:var(--orange);font-weight:800;background:#0b121a}
+.price-table td:first-child,.price-table th:first-child{text-align:left}
+.price-note{font-size:12px!important;color:#8191a5!important;border-left:2px solid var(--orange);padding-left:10px}
+.price-order-btn{width:100%;margin-top:14px}
+
+/* FunPay-site hero image */
+.hero-art{
+  position:absolute;
+  top:0;
+  right:0;
+  width:62%;
+  height:100%;
+  overflow:hidden;
+  transform:none;
+  background:none;
+  pointer-events:none;
+}
+.hero-tank-img{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  object-position:right center;
+}
+.funpay-order-box{display:grid;gap:22px}
+.funpay-main-btn{width:max-content;min-width:220px}
+.funpay-contact{min-width:260px}
+@media(max-width:900px){
+  .hero-art{width:100%;right:0;opacity:.30}
+  .hero-tank-img{object-position:70% center}
+}
+@media(max-width:560px){
+  .funpay-main-btn{width:100%}
+  .funpay-contact{min-width:0;width:100%}
+}
